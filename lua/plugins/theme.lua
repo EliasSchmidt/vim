@@ -3,7 +3,7 @@ return {
   config = function()
     require("catppuccin").setup({
       flavour = "macchiato", -- "mocha", "latte", "frappe", "macciato"
-      transparent_background = false,
+      transparent_background = true,
       integrations = {
         treesitter = true,
         lsp = true,

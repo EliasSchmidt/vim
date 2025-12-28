@@ -12,5 +12,8 @@ require("lazy").setup({
 	require("plugins.treesitter"),
   require("plugins.lsp"),
   require("plugins.theme"),
-  require("plugins.telescope")
+  require("plugins.telescope"),
+  require("plugins.whichkey"),
+  require("plugins.icons"),
+  require("plugins.lualine"),
 })
